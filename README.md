@@ -1,5 +1,9 @@
 # Project Description
 
+## TL;DR
+
+A Redshift data warehouse is launched using Infrastructure as Code (IaC) which serves JSON logs of user activity available as plain text files on S3. Data is loaded using a staging schema to consequently be transformed to a star schema as per requirements. Cluster and roles can be completely managed using IaC as well.
+
 ## Business need
 The analytics team is particularly interested in understanding what songs users are listening to. Currently, they don't have an easy way to query their data, which resides in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
 
