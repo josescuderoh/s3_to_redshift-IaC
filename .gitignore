@@ -1,0 +1,4 @@
+aws_full.cfg
+__pycache__
+project_dwh*
+dwh_all.cfg
